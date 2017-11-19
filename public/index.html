@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Bin</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <h1 class="title">Conoce a <span id="name">Balu</span></h1>
+  <div class="card" id="cardBalu">
+    <div class="portrait">
+      <img id="portrait-img" src="baloo.jpg" />
+    </div>
+    <div class="dialog-box">
+      <div class="dialog-npc" id="dialog-npc">
+        <p class="text" id="dialog-text"></p>
+        <span id="hook-scroll"></span>
+      </div>
+      <form action="" onsubmit="return handleSubmit()">
+        <input class="dialog-input" name="pc-input" id="pc-input" type="text" autofocus placeholder="Responde..."></input>
+        <input type="submit">Enviar</input>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
